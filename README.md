@@ -38,7 +38,6 @@
 >>   - Run `cd D:\Apache\kafka_2.12-2.5.0` to go to the Kafka scripts directory
 >>   - Run `set classpath=.` This will add the Kafka java libraries in class path.
 >>   - Run `bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic jsontest` which will create 'jsontest' topic.
->>    ![Kafka Topic Creation](image/Kafka_topic_creation.JPG)
 >
 >
 >   We can now see that topic if we run the list topic command:
