@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 @Data
 public class KafkaProperties {
     private String bootstrapServer;
-    private String topic;
+    private String stringTopic;
+    private String userTopic;
     private String consumerGroupId;
 }
